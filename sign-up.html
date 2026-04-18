@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crossfit4 || Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap"
+      rel="stylesheet" />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/d92c5466e3.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="top-navbar">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="images/CrossFit4_logo_design_in_bold_black_and_white-removebg-preview.png"
+            alt="" />
+        </a>
+      </div>
+
+      <!-- Middle Navigation -->
+      <nav class="top-navbar-middle">
+        <ul>
+          <li><a href="special-offer.html">Special Offer</a></li>
+          <li><a href="#memberships">Memberships</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Navigation -->
+      <nav class="top-navbar-right">
+        <ul>
+          <li><a href="sign-in.html">Sign In</a></li>
+          <li><a href="sign-up.html">Sign Up</a></li>
+          <li>
+            <a href="checkout.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="sign-up-main">
+      <!-- ========== Sign Up Card ==========-->
+      <div class="signup-card">
+        <h1>Create Account</h1>
+        <p>Sign up to get started.</p>
+
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="Enter your first name"
+              required />
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Enter your last name"
+              required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create a password"
+              required />
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm your password"
+              required />
+          </div>
+
+          <button type="submit">Sign Up</button>
+          <div class="message" id="message"></div>
+        </form>
+
+        <div class="login-link">
+          Already have an account? <a href="#">Log in</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
